@@ -20,14 +20,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: const LoginPage(),
     );
+
   }
 
-  //click container on login page to go to register page
-  void _navigateToRegisterPage(BuildContext context) {
-    Navigator.push(
-      context,
-      // ignore: prefer_const_constructors
-      MaterialPageRoute(builder: (context) => register()),
-    );
-  }
+
 }
